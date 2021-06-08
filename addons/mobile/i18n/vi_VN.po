@@ -1,0 +1,504 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mobile
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20210518\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-08 07:17+0000\n"
+"PO-Revision-Date: 2021-06-08 07:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: mobile
+#: model:ir.actions.report,print_report_name:mobile.report_mobile
+msgid "'PRO-FORMA - %s' % (object.name)"
+msgstr ""
+
+#. module: mobile
+#: model_terms:ir.ui.view,arch_db:mobile.report_mobile_card
+msgid ""
+"<br/>\n"
+"                  Brand:"
+msgstr "Nhãn hiệu"
+
+#. module: mobile
+#: model_terms:ir.ui.view,arch_db:mobile.report_mobile_card
+msgid ""
+"<br/>\n"
+"                  Color:"
+msgstr "Màu sắc"
+
+#. module: mobile
+#: model_terms:ir.ui.view,arch_db:mobile.report_mobile_card
+msgid ""
+"<br/>\n"
+"                  Description :"
+msgstr "Miêu tả"
+
+#. module: mobile
+#: model_terms:ir.ui.view,arch_db:mobile.report_mobile_card
+msgid ""
+"<br/>\n"
+"                  MFG:"
+msgstr "Ngày sản xuất"
+
+#. module: mobile
+#: model_terms:ir.ui.view,arch_db:mobile.report_mobile_card
+msgid ""
+"<br/>\n"
+"                  Price :"
+msgstr "Giá"
+
+#. module: mobile
+#: model_terms:ir.ui.view,arch_db:mobile.report_mobile_card
+msgid ""
+"<br/>\n"
+"                  Quantity:"
+msgstr "Số lượng"
+
+#. module: mobile
+#: model_terms:ir.ui.view,arch_db:mobile.report_mobile_card
+msgid ""
+"<br/>\n"
+"                  Weight:"
+msgstr "Trọng Lượng"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__message_needaction
+msgid "Action Needed"
+msgstr "Hành động"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__activity_ids
+msgid "Activities"
+msgstr "Hoạt động"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Hoạt động ngoại trừ"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__activity_state
+msgid "Activity State"
+msgstr "Trang thái"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Loại hành động"
+
+#. module: mobile
+#: model_terms:ir.ui.view,arch_db:mobile.mobile_form_view
+msgid "Additional Information"
+msgstr "Thông tin thêm"
+
+#. module: mobile
+#: model:ir.model.fields.selection,name:mobile.selection__mobile__brand__apple
+msgid "Apple"
+msgstr "Apple"
+
+#. module: mobile
+#: model_terms:ir.ui.view,arch_db:mobile.view_mobile_batch_update
+msgid "Apply updating on the selected record(s)?"
+msgstr "Thay đổi hàng loạt?"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__message_attachment_count
+msgid "Attachment Count"
+msgstr "Đếm"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__base_price
+msgid "Base Price"
+msgstr "Giá ban đầu"
+
+#. module: mobile
+#: model:ir.actions.act_window,name:mobile.action_mobile_batch_update
+#: model_terms:ir.ui.view,arch_db:mobile.view_mobile_batch_update
+msgid "Batch Update"
+msgstr "Thay đổi"
+
+#. module: mobile
+#: model:ir.model,name:mobile.model_mobile_batchupdate_wizard
+msgid "Batch update for mobile model"
+msgstr "Thay đổi cho mobile"
+
+#. module: mobile
+#: model:ir.model.fields.selection,name:mobile.selection__mobile__color__black
+msgid "Black"
+msgstr "Đen"
+
+#. module: mobile
+#: model:ir.model.fields.selection,name:mobile.selection__mobile__color__blue
+msgid "Blue"
+msgstr "Xanh da trời"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__brand
+msgid "Brand"
+msgstr "Nhãn hiệu"
+
+#. module: mobile
+#: model_terms:ir.ui.view,arch_db:mobile.view_mobile_batch_update
+msgid "Cancel"
+msgstr "Hủy"
+
+#. module: mobile
+#: model:ir.model.fields.selection,name:mobile.selection__mobile__state__cancelled
+msgid "Cancelled"
+msgstr "Đã Hủy"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__color
+msgid "Color"
+msgstr "Màu sắc"
+
+#. module: mobile
+#: model:ir.model.fields.selection,name:mobile.selection__mobile__state__confirm
+#: model_terms:ir.ui.view,arch_db:mobile.view_mobile_batch_update
+msgid "Confirm"
+msgstr "Xác nhận"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__create_uid
+#: model:ir.model.fields,field_description:mobile.field_mobile_batchupdate_wizard__create_uid
+msgid "Created by"
+msgstr "Tạo bởi"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__create_date
+#: model:ir.model.fields,field_description:mobile.field_mobile_batchupdate_wizard__create_date
+msgid "Created on"
+msgstr "Tạo trên"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__display_name
+#: model:ir.model.fields,field_description:mobile.field_mobile_batchupdate_wizard__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: mobile
+#: model:ir.model.fields.selection,name:mobile.selection__mobile__state__done
+msgid "Done"
+msgstr "Hoàn thành"
+
+#. module: mobile
+#: model:ir.model.fields.selection,name:mobile.selection__mobile__state__draft
+msgid "Draft"
+msgstr "Rác"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__message_follower_ids
+msgid "Followers"
+msgstr "Theo dõi"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Kênh theo dõi"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Người theo dõi"
+
+#. module: mobile
+#: model:ir.model.fields,help:mobile.field_mobile__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: mobile
+#: model_terms:ir.ui.view,arch_db:mobile.mobile_form_view
+msgid "General Information"
+msgstr "Thông tin chung"
+
+#. module: mobile
+#: model:ir.model.fields.selection,name:mobile.selection__mobile__color__gray
+msgid "Gray"
+msgstr "Xám"
+
+#. module: mobile
+#: model:ir.model.fields.selection,name:mobile.selection__mobile__color__green
+msgid "Green"
+msgstr "Xanh da trời"
+
+#. module: mobile
+#: model:ir.model.fields.selection,name:mobile.selection__mobile__brand__huawei
+msgid "Huawei"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__id
+#: model:ir.model.fields,field_description:mobile.field_mobile_batchupdate_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__activity_exception_icon
+msgid "Icon"
+msgstr "Biểu tượng"
+
+#. module: mobile
+#: model:ir.model.fields,help:mobile.field_mobile__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,help:mobile.field_mobile__message_needaction
+#: model:ir.model.fields,help:mobile.field_mobile__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,help:mobile.field_mobile__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: mobile
+#: model_terms:ir.ui.view,arch_db:mobile.mobile_form_view
+msgid "Images"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile____last_update
+#: model:ir.model.fields,field_description:mobile.field_mobile_batchupdate_wizard____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__write_uid
+#: model:ir.model.fields,field_description:mobile.field_mobile_batchupdate_wizard__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__write_date
+#: model:ir.model.fields,field_description:mobile.field_mobile_batchupdate_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__mfg
+#: model:ir.model.fields,field_description:mobile.field_mobile_batchupdate_wizard__mfg
+msgid "Manufacturing Date"
+msgstr "Ngày sản xuất"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__message_ids
+msgid "Messages"
+msgstr "Tin nhắn"
+
+#. module: mobile
+#: model:ir.actions.act_window,name:mobile.action_mobile
+#: model:ir.ui.menu,name:mobile.menu_mobile
+msgid "Mobile"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__description
+msgid "Mobile Description"
+msgstr "Miêu tả"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__mobile_image
+msgid "Mobile Image"
+msgstr "Ảnh"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__name
+#: model_terms:ir.ui.view,arch_db:mobile.mobile_form_view
+msgid "Mobile Name"
+msgstr "Tên"
+
+#. module: mobile
+#: model_terms:ir.ui.view,arch_db:mobile.mobile_form_view
+msgid "Mobile's Image"
+msgstr "Ảnh"
+
+#. module: mobile
+#: model_terms:ir.ui.view,arch_db:mobile.mobile_tree_view
+msgid "Mobiles"
+msgstr ""
+
+#. module: mobile
+#: model_terms:ir.ui.view,arch_db:mobile.report_mobile_card
+msgid "Name:"
+msgstr "Tên :"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: mobile
+#: model:res.groups,name:mobile.group_normal_user
+msgid "Normal user"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,help:mobile.field_mobile__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,help:mobile.field_mobile__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,help:mobile.field_mobile__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields.selection,name:mobile.selection__mobile__brand__oppo
+msgid "Oppo"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,help:mobile.field_mobile__mobile_image
+msgid "Pet Image"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields.selection,name:mobile.selection__mobile__color__pink
+msgid "Pink"
+msgstr ""
+
+#. module: mobile
+#: model:ir.actions.report,name:mobile.report_mobile
+msgid "Print mobile"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__quantity
+#: model:ir.model.fields,field_description:mobile.field_mobile_batchupdate_wizard__quantity
+msgid "Quantity"
+msgstr "Số lượng"
+
+#. module: mobile
+#: model:ir.model.fields.selection,name:mobile.selection__mobile__color__red
+msgid "Red"
+msgstr "Màu đỏ"
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields.selection,name:mobile.selection__mobile__brand__samsung
+msgid "Samsung"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields.selection,name:mobile.selection__mobile__brand__sony
+msgid "Sony"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,help:mobile.field_mobile__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__total
+msgid "Total"
+msgstr "Tổng"
+
+#. module: mobile
+#: model:ir.model.fields,help:mobile.field_mobile__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields.selection,name:mobile.selection__mobile__brand__vsmart
+msgid "Vsmart"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__weight
+#: model:ir.model.fields,field_description:mobile.field_mobile_batchupdate_wizard__weight
+msgid "Weight (g)"
+msgstr "Trọng lượng"
+
+#. module: mobile
+#: model:ir.model.fields.selection,name:mobile.selection__mobile__color__white
+msgid "White"
+msgstr "Màu trắng"
+
+#. module: mobile
+#: model:ir.model.fields.selection,name:mobile.selection__mobile__brand__xiaomi
+msgid "Xiaomi"
+msgstr ""
+
+#. module: mobile
+#: model_terms:ir.ui.view,arch_db:mobile.mobile_form_view
+msgid "e.g Iphone"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model,name:mobile.model_mobile
+msgid "mobile model"
+msgstr ""
+
+#. module: mobile
+#: model:ir.model.fields,field_description:mobile.field_mobile__state
+msgid "state"
+msgstr "Trạng thái"
