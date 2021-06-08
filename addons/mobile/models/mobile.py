@@ -23,12 +23,21 @@ class MyPet(models.Model):
     mfg = fields.Date('Manufacturing Date', required=False)
     color = fields.Selection([
         ('blue', 'Blue'),
-        ('white', 'White')
-        ('black', 'Black')
-        ('green', 'Green')
-        ('red', 'Red')
-        ('pink', 'Pink')
+        ('white', 'White'),
+        ('black', 'Black'),
+        ('green', 'Green'),
+        ('red', 'Red'),
+        ('pink', 'Pink'),
         ('gray', 'Gray')
+    ], string='Color', default='blue')
+    brand = fields.Selection([
+        ('apple', 'Apple'),
+        ('samsung', 'Samsung'),
+        ('oppo', 'Oppo'),
+        ('xiaomi', 'Xiaomi'),
+        ('vsmart', 'Vsmart'),
+        ('huawei', 'Huawei'),
+        ('sony', 'Sony'),
     ], string='Color', default='blue')
     mobile_image = fields.Binary("Mobile Image", attachment=True, help="Pet Image")
 
@@ -38,12 +47,6 @@ class MyPet(models.Model):
     def _compute_total(self):
         for record in self:
             record.total = record.base_price * record.quantity
-
-    @api.constrains("base_price")
-    def check_age(self):
-        for record in self:
-            if record.base_price <= 0:
-                raise ValidationError("base_price must lager than 0")
 
     @api.constrains("base_price")
     def check_age(self):

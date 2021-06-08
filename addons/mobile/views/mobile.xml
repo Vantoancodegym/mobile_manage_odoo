@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="mobile_form_view" model="ir.ui.view">
+            <field name="name">mobile.form.view</field>
+            <field name="model">mobile</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                        <field name="state" widget="statusbar" statusbar_visible="draft,confirm,done,cancelled" clickable="1"/>
+                    </header>
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="name" string="Mobile Name" class="oe_edit_only"/>
+                            <h1><field name="name" placeholder="e.g. Kittie"/></h1>
+                            <label for="brand"/>
+                            <h3><field name="brand"/></h3>
+                        </div>
+                        <group name="images">
+                            <group>
+                                <field name="base_price"/>
+                                <field name="quantity"/>
+                            </group>
+                            <group>
+                                <field name="mfg"/>
+                                <field name="color"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page name="general_information" string="General Information">
+								<group>
+                                    <group>
+										<field name="weight"/>
+									</group>
+									<group>
+										<label for="description" colspan="2"/>
+										<field name="description" colspan="2" nolabel="1"/>
+									</group>
+								</group>
+							</page>
+							<page name="additional_information" string="Additional Information">
+								<group>
+									<group string="Images">
+										<field name="mobile_image" string="Mobile's Image" widget="image"/>
+									</group>
+								</group>
+							</page>
+						</notebook>
+                    </sheet>
+                     <div class="oe_chatter">
+                            <field name= "message_follower_ids" widget="mail_followers” groups=”base.group_user"/>
+                            <field name="message_ids" widget="mail_thread"/>
+                            <field name="activity_ids" widget="mail_activity"/>
+                     </div>
+                </form>
+            </field>
+        </record>
+
+        <record id="mobile_tree_view" model="ir.ui.view">
+            <field name="name">mobile.tree.view</field>
+            <field name="model">mobile</field>
+            <field name="arch" type="xml">
+                <tree string="Mobiles" default_order="create_date desc">
+                    <field name="name"/>
+                    <field name="color"/>
+                    <field name="brand"/>
+                    <field name="weight"/>
+                    <field name="mfg"/>
+                    <field name="description"/>
+                    <field name="base_price"/>
+                    <field name="quantity"/>
+                    <field name="total"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_mobile" model="ir.actions.act_window">
+            <field name="name">Mobile</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">mobile</field>
+            <field name="view_ids" eval="[(5, 0, 0),
+                (0, 0, {'view_mode': 'tree', 'view_id': ref('my_pet_tree_view')}),
+                (0, 0, {'view_mode': 'form', 'view_id': ref('my_pet_form_view')})]"/>
+        </record>
+
+        <menuitem id="menu_mobile"
+            name="Mobile"
+            action="action_mobile"
+            sequence="10"
+            groups="base.group_user"/>
+    </data>
+</odoo>
