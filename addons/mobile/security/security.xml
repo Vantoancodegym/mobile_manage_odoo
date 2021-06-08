@@ -2,8 +2,8 @@
     <record id="group_normal_user" model="res.groups">
         <field name="name">Normal user</field>
     </record>
-<!--    <record id="pet_view_rules" model="ir.rule">-->
-<!--        <field name="name">User can only see his/her pet</field>-->
+<!--    <record id="mobile_view_rules" model="ir.rule">-->
+<!--        <field name="name">User can only see mobile</field>-->
 <!--        <field name="model_id" ref="model_my_pet"/>-->
 <!--        <field name="groups" eval="[(4, ref('base.group_user'))]"/>-->
 <!--         <field name="perm_read" eval="0"/>-->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+     <template id="report_mobile_card">
+   <t t-call="web.html_container">
+       <t t-foreach="docs" t-as="o">
+           <t t-call="web.external_layout">
+               <div class="page">
+                  Name: <t t-esc="o.name"/><br />
+                  Brand: <t t-esc="o.brand"/><br />
+                  Color: <t t-esc="o.color"/><br />
+                  Weight: <t t-esc="o.weight"/><br />
+                  MFG: <t t-esc="o.mfg"/><br />
+                  Quantity: <t t-esc="o.quantity"/><br />
+                  Price : <t t-esc="o.base_price"/><br />
+                  Description : <t t-esc="o.description"/><br />
+               </div>
+           </t>
+       </t>
+   </t>
+       </template>
+</odoo>

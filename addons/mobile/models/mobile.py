@@ -47,15 +47,13 @@ class MyPet(models.Model):
     def _compute_total(self):
         for record in self:
             record.total = record.base_price * record.quantity
-
-    @api.constrains("base_price")
-    def check_age(self):
-        for record in self:
-            if record.base_price <= 0:
-                raise ValidationError("base_price must lager than 0")
-
     @api.constrains("quantity")
     def check_age(self):
         for record in self:
             if record.base_price <= 0:
                 raise ValidationError("quantity must lager than 0")
+    @api.constrains("weight")
+    def check_age(self):
+        for record in self:
+            if record.weight <= 0:
+                raise ValidationError("weight must lager than 0")

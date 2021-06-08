@@ -67,9 +67,9 @@
                     <field name="weight"/>
                     <field name="mfg"/>
                     <field name="description"/>
-                    <field name="base_price"/>
+                    <field name="base_price" widget="monetary"/>
                     <field name="quantity"/>
-                    <field name="total"/>
+                    <field name="total" widget="monetary"/>
                 </tree>
             </field>
         </record>

@@ -14,6 +14,8 @@
         'views/mobile.xml',
         'security/security.xml',
         'security/ir.model.access.csv',
+        'reports/mobile_card.xml',
+        'reports/report.xml',
     ],
     # 'qweb': ['static/src/xml/*.xml'],
     'installable': True,
