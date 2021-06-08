@@ -1,3 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_mobile,access_mobile,model_mobile,base.group_user,1,1,1,1
+access_mobile_wizard,access_mobile_wizard,model_mobile_batchupdate_wizard,base.group_user,1,1,1,1
 access_mobile_normal_user,access_mobile_normal_user,model_mobile,group_normal_user,1,1,0,0

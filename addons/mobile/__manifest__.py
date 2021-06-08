@@ -14,6 +14,7 @@
         'views/mobile.xml',
         'security/security.xml',
         'security/ir.model.access.csv',
+        'wizard/batch_update.xml',
         'reports/mobile_card.xml',
         'reports/report.xml',
     ],
