@@ -11,7 +11,9 @@
         'product',
     ],
     'data': [
-
+        'views/mobile.xml',
+        'security/security.xml',
+        'security/ir.model.access.csv',
     ],
     # 'qweb': ['static/src/xml/*.xml'],
     'installable': True,

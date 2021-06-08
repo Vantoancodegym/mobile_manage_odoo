@@ -38,7 +38,7 @@ class MyPet(models.Model):
         ('vsmart', 'Vsmart'),
         ('huawei', 'Huawei'),
         ('sony', 'Sony'),
-    ], string='Color', default='blue')
+    ], string='Brand', default='blue')
     mobile_image = fields.Binary("Mobile Image", attachment=True, help="Pet Image")
 
     total = fields.Float(compute='_compute_total')
